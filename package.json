@@ -1,0 +1,15 @@
+{
+  "name": "study-blog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "기능사 공부 기록 — 정적 블로그",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node build.mjs && node --run serve:only",
+    "serve:only": "npx --yes http-server docs -p 8080 -c-1"
+  },
+  "dependencies": {
+    "marked": "^15.0.0"
+  }
+}
