@@ -6,7 +6,6 @@
 
 ## 안 쓴 것
 
-- GitHub Actions로 Pages 배포할 때 Settings의 Source를 "GitHub Actions"로 바꿔야 한다는 것 (안 바꾸면 워크플로가 돌아도 사이트가 안 뜸)
 - git push가 403으로 막혔던 것 — 저장소는 만들었는데 앱 권한이 따로였음
 - 배포는 성공했는데 사이트는 옛날 내용이 보이던 것 (캐시). 주소 뒤에 ?v=2 붙여서 확인
 - frontmatter의 draft 플래그로 글 숨기기 — 빌드 스크립트에서 어떻게 걸러내나
@@ -19,6 +18,7 @@
 
 - 2026-09-28 — GitHub Pages로 0원 블로그 만들기 → `posts/2026-09-28-github-pages-blog.md`
 - 2026-09-28 — 애드센스 연령 요건 알아본 것 → `posts/2026-09-28-adsense-age.md`
+- 2026-09-28 — GitHub Actions로 Pages 배포할 때 Source를 "GitHub Actions"로 바꿔야 하는 것 → `posts/2026-09-28-github-actions-pages-source.md`
 
 ## 글이 되는 것 / 안 되는 것
 
