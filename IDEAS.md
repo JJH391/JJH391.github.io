@@ -6,7 +6,6 @@
 
 ## 안 쓴 것
 
-- sitemap.xml을 빌드할 때 자동으로 만들기
 - RSS 피드를 직접 만들어보기 — 생각보다 형식이 단순함
 - 마크다운 frontmatter를 라이브러리 없이 파싱하기
 - 태그별 페이지를 자동으로 만들기
@@ -19,6 +18,7 @@
 - 2026-09-30 — git push가 403으로 막혔던 것, 저장소 생성과 앱 권한은 별개인 것 → `posts/2026-09-30-git-push-403-app-permission.md`
 - 2026-10-02 — 배포는 성공했는데 사이트는 옛날 내용이 보이던 것 (캐시, ?v=2로 확인) → `posts/2026-10-02-github-pages-cache-busting.md`
 - 2026-10-04 — frontmatter의 draft 플래그로 글 숨기기 — 빌드 스크립트에서 어떻게 걸러내나 → `posts/2026-10-04-draft-flag-build-filter.md`
+- 2026-10-05 — sitemap.xml을 빌드할 때 자동으로 만들기 — build.mjs 코드로 확인 → `posts/2026-10-05-sitemap-auto-generation.md`
 
 ## 글이 되는 것 / 안 되는 것
 
