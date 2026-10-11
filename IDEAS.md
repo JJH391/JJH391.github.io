@@ -6,8 +6,6 @@
 
 ## 안 쓴 것
 
-- 태그별 페이지를 자동으로 만들기
-
 ## 쓴 것
 
 - 2026-09-28 — GitHub Pages로 0원 블로그 만들기 → `posts/2026-09-28-github-pages-blog.md`
@@ -19,6 +17,7 @@
 - 2026-10-05 — sitemap.xml을 빌드할 때 자동으로 만들기 — build.mjs 코드로 확인 → `posts/2026-10-05-sitemap-auto-generation.md`
 - 2026-10-07 — RSS 피드를 직접 만들어보기 — 생각보다 형식이 단순함 → `posts/2026-10-07-rss-feed-format.md`
 - 2026-10-09 — 마크다운 frontmatter를 라이브러리 없이 파싱하기 — 정규식 파서를 직접 테스트해서 되는/안 되는 경우 확인 → `posts/2026-10-09-frontmatter-regex-parser-edge-cases.md`
+- 2026-10-11 — 태그별 페이지를 자동으로 만들기 — build.mjs에 이미 있던 tagPage()와 슬러그 인코딩/디코딩 확인 → `posts/2026-10-11-tag-page-auto-generation.md`
 
 ## 글이 되는 것 / 안 되는 것
 
