@@ -6,6 +6,17 @@
 
 ## 안 쓴 것
 
+- 캔버스 애니메이션이 첫 프레임에서 멈춰 단서 화면이 텅 비었던 버그 — `open()` 인자 평가 순서 때문에 창 번호를 먼저 기억해버린 것 (상세: `notes/소재/canvas-animate-first-frame-stop.md`)
+- `element.append(null)`이 화면에 "null" 글자를 찍는 것 — `ParentNode.append()`가 null을 문자열로 바꿔 텍스트 노드로 넣는 동작 (상세: `notes/소재/append-null-renders-text.md`)
+- 서버 권위 게임인데도 웹소켓 메시지에 정답이 실려 있던 문제 — 화면 그릴 재료와 정답을 안 나눠서 생긴 것 (상세: `notes/소재/websocket-answer-leak.md`)
+- 이동 검증을 도착점만 하면 벽·함정을 뛰어넘을 수 있는 것 — 경로 전체가 아니라 좌표만 검사했던 것 (상세: `notes/소재/movement-path-validation-bypass.md`)
+- 작업증명(PoW) 난이도를 토큰 서명에 넣어야 하는 이유 — 난이도별 토큰 바꿔치기·재사용을 막는 법 (상세: `notes/소재/pow-difficulty-in-token-signature.md`)
+- D1 배치에서 `changes()`로 "새로 들어갔을 때만 지급" 만들기 — 멱등 정산 크론 (상세: `notes/소재/d1-batch-changes-idempotent-payout.md`)
+- 한국 시간 기준 "이번 달"의 시작·끝을 UTC 타임스탬프로 구하기 (상세: `notes/소재/kst-month-boundary-utc.md`)
+- wrangler가 갑자기 "non-interactive environment" 에러를 낸 이유 — logout 후 비대화형 실행 (상세: `notes/소재/wrangler-non-interactive-login-error.md`)
+- 공개 관제실 숫자 대부분이 내 테스트 트래픽이었던 것 — 자체 점검 표시를 비밀 헤더로 분리한 것 (상세: `notes/소재/selftest-header-exclude-from-public-stats.md`)
+- Durable Object에서 예전 웹소켓을 close(4001) 했는데 로컬 테스트에서 닫힘 이벤트가 안 왔던 것 (상세: `notes/소재/durable-object-close-4001-local-test.md`)
+
 ## 쓴 것
 
 - 2026-09-28 — GitHub Pages로 0원 블로그 만들기 → `posts/2026-09-28-github-pages-blog.md`
