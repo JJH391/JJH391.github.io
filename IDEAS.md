@@ -6,7 +6,6 @@
 
 ## 안 쓴 것
 
-- 캔버스 애니메이션이 첫 프레임에서 멈춰 단서 화면이 텅 비었던 버그 — `open()` 인자 평가 순서 때문에 창 번호를 먼저 기억해버린 것 (상세: `notes/소재/canvas-animate-first-frame-stop.md`)
 - `element.append(null)`이 화면에 "null" 글자를 찍는 것 — `ParentNode.append()`가 null을 문자열로 바꿔 텍스트 노드로 넣는 동작 (상세: `notes/소재/append-null-renders-text.md`)
 - 서버 권위 게임인데도 웹소켓 메시지에 정답이 실려 있던 문제 — 화면 그릴 재료와 정답을 안 나눠서 생긴 것 (상세: `notes/소재/websocket-answer-leak.md`)
 - 이동 검증을 도착점만 하면 벽·함정을 뛰어넘을 수 있는 것 — 경로 전체가 아니라 좌표만 검사했던 것 (상세: `notes/소재/movement-path-validation-bypass.md`)
@@ -29,6 +28,7 @@
 - 2026-10-07 — RSS 피드를 직접 만들어보기 — 생각보다 형식이 단순함 → `posts/2026-10-07-rss-feed-format.md`
 - 2026-10-09 — 마크다운 frontmatter를 라이브러리 없이 파싱하기 — 정규식 파서를 직접 테스트해서 되는/안 되는 경우 확인 → `posts/2026-10-09-frontmatter-regex-parser-edge-cases.md`
 - 2026-10-11 — 태그별 페이지를 자동으로 만들기 — build.mjs에 이미 있던 tagPage()와 슬러그 인코딩/디코딩 확인 → `posts/2026-10-11-tag-page-auto-generation.md`
+- 2026-10-14 — 캔버스 애니메이션이 첫 프레임에서 멈춰 단서 화면이 비었던 버그, open() 인자 평가 순서가 원인 → `posts/2026-10-14-canvas-animate-first-frame-stop.md`
 
 ## 글이 되는 것 / 안 되는 것
 
