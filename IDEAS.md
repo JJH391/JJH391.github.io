@@ -15,6 +15,16 @@
 - wrangler가 갑자기 "non-interactive environment" 에러를 낸 이유 — logout 후 비대화형 실행 (상세: `notes/소재/wrangler-non-interactive-login-error.md`)
 - 공개 관제실 숫자 대부분이 내 테스트 트래픽이었던 것 — 자체 점검 표시를 비밀 헤더로 분리한 것 (상세: `notes/소재/selftest-header-exclude-from-public-stats.md`)
 - Durable Object에서 예전 웹소켓을 close(4001) 했는데 로컬 테스트에서 닫힘 이벤트가 안 왔던 것 (상세: `notes/소재/durable-object-close-4001-local-test.md`)
+- 샌드박스에서 yt-dlp로 인스타 릴스가 안 받아질 때, 브라우저 안에서 원본 mp4 주소 뽑기 — DASH 조각 URL에서 bytestart/byteend 제거 (상세: `notes/소재/instagram-reels-dash-fragment-to-full-mp4.md`)
+- 인스타 페이지의 video 요소를 다른 위치로 옮겼더니 화면이 검게 나온 이유 — MSE blob 버퍼 분리 (상세: `notes/소재/instagram-video-element-move-mse-black-screen.md`)
+- 숨겨진 탭에서 video.play()가 AbortError로 실패하고 requestAnimationFrame이 멈춘 문제 (상세: `notes/소재/hidden-tab-video-play-abort-raf-stall.md`)
+- Pillow에서 Noto Sans CJK .ttc로 한국어 글꼴 고르기 — index 파라미터 (상세: `notes/소재/pillow-noto-sans-cjk-ttc-index.md`)
+- 무료 오프라인 한국어 TTS(sherpa-onnx + Supertonic 3)와 화자 번호 남녀 구분하기 — 기본 주파수 실측 (상세: `notes/소재/sherpa-onnx-supertonic-korean-tts-speaker-gender.md`)
+- pip으로 Blender(bpy) 설치해 헤드리스 3D 렌더링 — CPU 렌더 시간 실측 (상세: `notes/소재/pip-bpy-blender-headless-render-cpu-time.md`)
+- 인스타 릴스 자동 게시: Instagram Login 방식은 페이스북 페이지 없이 되지만 영상은 공개 URL이어야 하는 것 (상세: `notes/소재/instagram-reels-publish-login-without-facebook-page.md`)
+- Meta 개발자 대시보드에서 토큰은 나오는데 인스타 숫자 ID가 안 보일 때 — /me 조회로 해결 (상세: `notes/소재/instagram-graph-me-lookup-account-id.md`)
+- GitHub Actions에서 fine-grained PAT로 다른 저장소에 push할 때 "Invalid username or token" 났던 것 (상세: `notes/소재/github-actions-fine-grained-pat-push-invalid-token.md`)
+- GitHub Actions cron으로 "3일마다" 실행하기, ubuntu-latest 환경 변경 공지 (상세: `notes/소재/github-actions-cron-every-3-days-ubuntu-migration.md`)
 
 ## 쓴 것
 
