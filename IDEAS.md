@@ -6,7 +6,6 @@
 
 ## 안 쓴 것
 
-- wrangler가 갑자기 "non-interactive environment" 에러를 낸 이유 — logout 후 비대화형 실행 (상세: `notes/소재/wrangler-non-interactive-login-error.md`)
 - 공개 관제실 숫자 대부분이 내 테스트 트래픽이었던 것 — 자체 점검 표시를 비밀 헤더로 분리한 것 (상세: `notes/소재/selftest-header-exclude-from-public-stats.md`)
 - Durable Object에서 예전 웹소켓을 close(4001) 했는데 로컬 테스트에서 닫힘 이벤트가 안 왔던 것 (상세: `notes/소재/durable-object-close-4001-local-test.md`)
 - 샌드박스에서 yt-dlp로 인스타 릴스가 안 받아질 때, 브라우저 안에서 원본 mp4 주소 뽑기 — DASH 조각 URL에서 bytestart/byteend 제거 (상세: `notes/소재/instagram-reels-dash-fragment-to-full-mp4.md`)
@@ -39,6 +38,7 @@
 - 2026-10-21 — 작업증명(PoW) 난이도를 토큰 서명에 넣어야 하는 이유, 난이도별 토큰 바꿔치기·재사용을 막는 법 → `posts/2026-10-21-pow-difficulty-token-signature.md`
 - 2026-10-23 — D1 배치에서 changes()로 "새로 들어갔을 때만 지급" 만들기 — 멱등 정산 크론 → `posts/2026-10-23-d1-batch-changes-idempotent-payout.md`
 - 2026-10-25 — 한국 시간 기준 "이번 달" 경계를 UTC 타임스탬프로 구하기 → `posts/2026-10-25-kst-month-boundary-utc.md`
+- 2026-10-26 — wrangler logout 후 비대화형 환경에서 나는 "non-interactive environment" 에러 → `posts/2026-10-26-wrangler-non-interactive-login-error.md`
 
 ## 글이 되는 것 / 안 되는 것
 
