@@ -6,7 +6,6 @@
 
 ## 안 쓴 것
 
-- 숨겨진 탭에서 video.play()가 AbortError로 실패하고 requestAnimationFrame이 멈춘 문제 (상세: `notes/소재/hidden-tab-video-play-abort-raf-stall.md`)
 - Pillow에서 Noto Sans CJK .ttc로 한국어 글꼴 고르기 — index 파라미터 (상세: `notes/소재/pillow-noto-sans-cjk-ttc-index.md`)
 - 무료 오프라인 한국어 TTS(sherpa-onnx + Supertonic 3)와 화자 번호 남녀 구분하기 — 기본 주파수 실측 (상세: `notes/소재/sherpa-onnx-supertonic-korean-tts-speaker-gender.md`)
 - pip으로 Blender(bpy) 설치해 헤드리스 3D 렌더링 — CPU 렌더 시간 실측 (상세: `notes/소재/pip-bpy-blender-headless-render-cpu-time.md`)
@@ -39,6 +38,7 @@
 - 2026-10-30 — Durable Object에서 예전 웹소켓을 close(4001) 했는데 로컬 테스트에서 닫힘 이벤트가 안 왔던 것 → `posts/2026-10-30-durable-object-websocket-close-4001-local-test.md`
 - 2026-11-01 — 샌드박스에서 yt-dlp로 인스타 릴스가 안 받아질 때, 브라우저 안에서 원본 mp4 주소 뽑기 → `posts/2026-11-01-instagram-reels-dash-fragment-to-full-mp4.md`
 - 2026-11-02 — 인스타 video 요소를 다른 위치로 옮겼더니 화면이 검게 나온 이유, MSE blob 버퍼 분리 → `posts/2026-11-02-instagram-video-element-move-mse-black-screen.md`
+- 2026-11-04 — 숨겨진 탭에서 video.play()가 AbortError로 실패하고 requestAnimationFrame이 멈춘 문제 → `posts/2026-11-04-hidden-tab-video-play-abort-raf-stall.md`
 
 ## 글이 되는 것 / 안 되는 것
 
