@@ -6,7 +6,6 @@
 
 ## 안 쓴 것
 
-- Pillow에서 Noto Sans CJK .ttc로 한국어 글꼴 고르기 — index 파라미터 (상세: `notes/소재/pillow-noto-sans-cjk-ttc-index.md`)
 - 무료 오프라인 한국어 TTS(sherpa-onnx + Supertonic 3)와 화자 번호 남녀 구분하기 — 기본 주파수 실측 (상세: `notes/소재/sherpa-onnx-supertonic-korean-tts-speaker-gender.md`)
 - pip으로 Blender(bpy) 설치해 헤드리스 3D 렌더링 — CPU 렌더 시간 실측 (상세: `notes/소재/pip-bpy-blender-headless-render-cpu-time.md`)
 - 인스타 릴스 자동 게시: Instagram Login 방식은 페이스북 페이지 없이 되지만 영상은 공개 URL이어야 하는 것 (상세: `notes/소재/instagram-reels-publish-login-without-facebook-page.md`)
@@ -39,6 +38,7 @@
 - 2026-11-01 — 샌드박스에서 yt-dlp로 인스타 릴스가 안 받아질 때, 브라우저 안에서 원본 mp4 주소 뽑기 → `posts/2026-11-01-instagram-reels-dash-fragment-to-full-mp4.md`
 - 2026-11-02 — 인스타 video 요소를 다른 위치로 옮겼더니 화면이 검게 나온 이유, MSE blob 버퍼 분리 → `posts/2026-11-02-instagram-video-element-move-mse-black-screen.md`
 - 2026-11-04 — 숨겨진 탭에서 video.play()가 AbortError로 실패하고 requestAnimationFrame이 멈춘 문제 → `posts/2026-11-04-hidden-tab-video-play-abort-raf-stall.md`
+- 2026-11-06 — Pillow에서 Noto Sans CJK .ttc로 한국어 글꼴 고르기 — index 파라미터 → `posts/2026-11-06-pillow-noto-sans-cjk-ttc-index.md`
 
 ## 글이 되는 것 / 안 되는 것
 
