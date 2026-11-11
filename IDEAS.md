@@ -6,7 +6,6 @@
 
 ## 안 쓴 것
 
-- pip으로 Blender(bpy) 설치해 헤드리스 3D 렌더링 — CPU 렌더 시간 실측 (상세: `notes/소재/pip-bpy-blender-headless-render-cpu-time.md`)
 - 인스타 릴스 자동 게시: Instagram Login 방식은 페이스북 페이지 없이 되지만 영상은 공개 URL이어야 하는 것 (상세: `notes/소재/instagram-reels-publish-login-without-facebook-page.md`)
 - Meta 개발자 대시보드에서 토큰은 나오는데 인스타 숫자 ID가 안 보일 때 — /me 조회로 해결 (상세: `notes/소재/instagram-graph-me-lookup-account-id.md`)
 - GitHub Actions에서 fine-grained PAT로 다른 저장소에 push할 때 "Invalid username or token" 났던 것 (상세: `notes/소재/github-actions-fine-grained-pat-push-invalid-token.md`)
@@ -39,6 +38,7 @@
 - 2026-11-04 — 숨겨진 탭에서 video.play()가 AbortError로 실패하고 requestAnimationFrame이 멈춘 문제 → `posts/2026-11-04-hidden-tab-video-play-abort-raf-stall.md`
 - 2026-11-06 — Pillow에서 Noto Sans CJK .ttc로 한국어 글꼴 고르기 — index 파라미터 → `posts/2026-11-06-pillow-noto-sans-cjk-ttc-index.md`
 - 2026-11-09 — 무료 오프라인 한국어 TTS(sherpa-onnx + Supertonic 3)와 화자 번호 남녀 구분하기 — 기본 주파수 실측 → `posts/2026-11-09-sherpa-onnx-supertonic-korean-tts-speaker-gender.md`
+- 2026-11-11 — pip으로 Blender(bpy) 설치해 헤드리스 3D 렌더링 — CPU 렌더 시간 실측 → `posts/2026-11-11-pip-bpy-blender-headless-render-cpu-time.md`
 
 ## 글이 되는 것 / 안 되는 것
 
