@@ -6,7 +6,6 @@
 
 ## 안 쓴 것
 
-- GitHub Actions에서 fine-grained PAT로 다른 저장소에 push할 때 "Invalid username or token" 났던 것 (상세: `notes/소재/github-actions-fine-grained-pat-push-invalid-token.md`)
 - GitHub Actions cron으로 "3일마다" 실행하기, ubuntu-latest 환경 변경 공지 (상세: `notes/소재/github-actions-cron-every-3-days-ubuntu-migration.md`)
 
 ## 쓴 것
@@ -39,6 +38,7 @@
 - 2026-11-11 — pip으로 Blender(bpy) 설치해 헤드리스 3D 렌더링 — CPU 렌더 시간 실측 → `posts/2026-11-11-pip-bpy-blender-headless-render-cpu-time.md`
 - 2026-11-13 — 인스타 릴스 자동 게시: Instagram Login 방식은 페이스북 페이지 없이 되지만 영상은 공개 URL이어야 하는 것 → `posts/2026-11-13-instagram-reels-publish-login-without-facebook-page.md`
 - 2026-11-15 — Meta 개발자 대시보드에서 토큰은 나오는데 인스타 숫자 ID가 안 보이던 것, /me 조회로 해결 → `posts/2026-11-15-instagram-graph-me-lookup-account-id.md`
+- 2026-11-16 — GitHub Actions에서 fine-grained PAT로 다른 저장소에 push할 때 "Invalid username or token" 났던 것 → `posts/2026-11-16-github-actions-fine-grained-pat-push-invalid-token.md`
 
 ## 글이 되는 것 / 안 되는 것
 
