@@ -6,7 +6,14 @@
 
 ## 안 쓴 것
 
-- (여기에 한 줄씩 적으면 됩니다)
+- [시리즈 첫 글] 공모전 본선 진출작 FORTRESS가 친구들의 실제 공격으로 드러난 구멍(정답 유출·벽 뛰어넘기·풀 수 없는 퍼즐)을 거쳐 지금 모습이 된 과정 — 이미 초안이 있는 1부 글 10편을 엮는 글 (상세: `notes/소재/fortress-series-first-post.md`)
+- JavaScript 정규식 `\s`가 NBSP(U+00A0)까지 지워서 코드 예시 들여쓰기가 사라진 것 — HTML 슬라이드를 PPTX로 옮기다 발견 (상세: `notes/소재/js-regex-s-strips-nbsp.md`)
+- 같은 블록에서 `const`를 두 번 선언하면 스크립트 전체가 안 돌아 headless `--dump-dom` 결과가 비는 것 — 파이썬에서 NoneType 에러로 나타남 (상세: `notes/소재/duplicate-const-dump-dom-empty.md`)
+- `style="..."` 안에 큰따옴표 글꼴 이름을 넣으면 속성이 끊겨 글자가 작고 검게 나온 것 (상세: `notes/소재/style-attribute-double-quote-font-name.md`)
+- HTML 발표자료를 Chrome headless로 슬라이드 크기 PDF로 뽑기 — `@page`, 웹폰트·링크가 PDF에 들어갔는지 확인한 방법 (상세: `notes/소재/chrome-headless-html-to-slide-pdf.md`)
+- HTML 슬라이드를 고칠 수 있는 PPTX로 옮기기 — `getBoundingClientRect()`로 잰 위치를 EMU(1px=6350)로 바꿔 python-pptx로 다시 만든 것. 바꾼 링크 색이 실제 적용됐는지는 확인 안 됨, 사실로 쓰지 말 것 (상세: `notes/소재/html-slides-to-editable-pptx-emu.md`)
+- 줄마다 다른 글상자로 넣었더니 파워포인트에서 글꼴 폭 차이로 글자가 겹친 것 — 같은 카드 안 글을 한 글상자로 합쳐 95개에서 45개로 (상세: `notes/소재/pptx-separate-textboxes-overlap-font-width.md`)
+- 구글 슬라이드에서 열었다 저장한 PPTX가 파워포인트에서 다시 깨지는 것 — 고정 줄 간격이 배수로 바뀌고 표 크기가 망가짐 (상세: `notes/소재/google-slides-roundtrip-breaks-pptx.md`)
 
 ## 쓴 것
 
