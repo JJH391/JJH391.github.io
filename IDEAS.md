@@ -6,7 +6,6 @@
 
 ## 안 쓴 것
 
-- 같은 블록에서 `const`를 두 번 선언하면 스크립트 전체가 안 돌아 headless `--dump-dom` 결과가 비는 것 — 파이썬에서 NoneType 에러로 나타남 (상세: `notes/소재/duplicate-const-dump-dom-empty.md`)
 - `style="..."` 안에 큰따옴표 글꼴 이름을 넣으면 속성이 끊겨 글자가 작고 검게 나온 것 (상세: `notes/소재/style-attribute-double-quote-font-name.md`)
 - HTML 발표자료를 Chrome headless로 슬라이드 크기 PDF로 뽑기 — `@page`, 웹폰트·링크가 PDF에 들어갔는지 확인한 방법 (상세: `notes/소재/chrome-headless-html-to-slide-pdf.md`)
 - HTML 슬라이드를 고칠 수 있는 PPTX로 옮기기 — `getBoundingClientRect()`로 잰 위치를 EMU(1px=6350)로 바꿔 python-pptx로 다시 만든 것. 바꾼 링크 색이 실제 적용됐는지는 확인 안 됨, 사실로 쓰지 말 것 (상세: `notes/소재/html-slides-to-editable-pptx-emu.md`)
@@ -47,6 +46,7 @@
 - 2026-11-18 — GitHub Actions cron으로 "3일마다" 실행하기, ubuntu-latest 환경 변경 공지 → `posts/2026-11-18-github-actions-cron-every-3-days-ubuntu-migration.md`
 - 2026-11-23 — 공모전 본선 진출작 FORTRESS가 지금 모습이 되기까지, 시리즈를 여는 글 (1부 소재 10편 목록) → `posts/2026-11-23-fortress-contest-finalist-series-intro.md`
 - 2026-11-25 — JS 정규식 `\s`가 NBSP(U+00A0)까지 지워 코드 예시 들여쓰기가 사라진 것 → `posts/2026-11-25-js-regex-whitespace-nbsp.md`
+- 2026-11-27 — 같은 블록에서 const를 두 번 선언하면 스크립트 전체가 안 돌아 headless --dump-dom 결과가 비는 것 → `posts/2026-11-27-duplicate-const-dump-dom-empty.md`
 
 ## 글이 되는 것 / 안 되는 것
 
